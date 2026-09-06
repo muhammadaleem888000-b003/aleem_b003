@@ -1,0 +1,95 @@
+/* Apply box-sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    margin: 0;
+    padding: 40px;
+}
+
+.card-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-card {
+    display: inline-block;
+    width: 280px;
+    background-color: white;
+
+    padding: 16px;
+    margin: 20px;
+
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    text-align: left;
+}
+
+.product-image {
+    height: 160px;
+    background-color: #e2e8f0;
+
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.product-image span {
+    font-size: 35px;
+}
+
+.product-card h2 {
+    font-size: 20px;
+    color: #111827;
+
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #64748b;
+
+    line-height: 1.6;
+
+    margin: 8px 0;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    color: #7c3aed;
+
+    margin: 15px 0;
+}
+
+button {
+    width: 100%;
+
+    background-color: #7c3aed;
+    color: white;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5b21b6;
+}
